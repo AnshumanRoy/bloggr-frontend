@@ -38,6 +38,8 @@ const About = () => {
                             </p>
                             <br/>
                             <p>The API endpoints used for the application are documented <a href='https://dummyjson.com/docs/posts'>here</a>.</p>
+                            <br/>
+                            <p>The source code can be viewed <a href='https://github.com/AnshumanRoy/bloggr-frontend'>here</a>.</p>
                             <hr/>
                             <br/>
                             <h5><b>About me</b></h5>
