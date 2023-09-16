@@ -6,7 +6,6 @@ import Form from 'react-bootstrap/Form';
 import { Button, Stack, Badge } from 'react-bootstrap';
 import { useSelector } from 'react-redux';
 import { Route, Routes, useNavigate } from 'react-router-dom';
-import Home from './Home';
 
 const Create = () => {
     const dark = useSelector((state)=>{return state.dark.value})
@@ -36,7 +35,7 @@ const Create = () => {
                 tags: state.tags
             })
         })
-        .then(navigate('/'))
+        navigate('/')
     }
     
     return (
@@ -79,9 +78,6 @@ const Create = () => {
                 </Col>
             </Row>
         </Container>
-        <Routes>
-            <Route path='/' element={<Home/>}></Route>
-        </Routes>
         </div>
       );
 }

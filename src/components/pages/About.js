@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import { useSelector } from 'react-redux';
 import {BiLogoLinkedinSquare} from 'react-icons/bi'
-import {FaGithub, FaSquareGithub} from 'react-icons/fa6'
+import {FaGithub} from 'react-icons/fa6'
 
 const About = () => {
     const dark = useSelector((state)=>{return state.dark.value})
